@@ -32,7 +32,7 @@ console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
 
-console.log('Second favorite food is:', favfoods[1])
+console.log('Second favorite food is:', favfoods.indexOf('Chicken'))
 // 3.b. TODO: Log the last animal in the array using it's array index 
 console.log('Least favorite food is:' , favfoods[3])
 
@@ -59,15 +59,17 @@ console.log('The animals are now', animalArray);
 
 // 4.b. TODO: Remove the food at the end of your array & 
 //      log both the food removed and the updated array
-
-
+let removedFood = favfoods.pop('Fries');
+//I inserted Fries just so it shows up on my log. I know the pop feature works by putting what I wanna removde in the ()
+console.log('Removed the last favfood of:' , removedFood )
+console.log('All the favorite foods are now:' , favfoods);
 // Example: Add an animal to the beginning using Array.unshift
 animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-
-
+favfoods.unshift('Shrimp')
+console.log('Added Shrimp as my top favorite food:' , ${favfoods})
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
