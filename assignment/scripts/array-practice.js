@@ -32,14 +32,14 @@ console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
 
-console.log('Second favorite food is:', favfoods.indexOf('Chicken'))
+console.log('Second animal is:', animalArray[1])
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log('Least favorite food is:' , favfoods[3])
+console.log('Last animal is:' , animalArray[3])
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
 
-console.log('Exact way to get last item is:' , favfoods[favfoods.length - 1] )
+console.log('Exact way to get last item is:' , animalArray[animalArray.length - 1] )
 
 // 4. Adding & Removing Array Items
 console.log('--- 4. Adding and removing array items ---');
@@ -69,7 +69,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 favfoods.unshift('Shrimp')
-console.log('Added Shrimp as my top favorite food:' , ${favfoods})
+console.log('Added Shrimp as my top favorite food:' , {favfoods})
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
 console.log('Removed the first animal', removedAnimal);
